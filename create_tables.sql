@@ -1,0 +1,16 @@
+-- SQL script to create wedding database and tables
+CREATE DATABASE IF NOT EXISTS wedding CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE wedding;
+
+CREATE TABLE IF NOT EXISTS rsvp_yes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    alcohol VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS rsvp_no (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
