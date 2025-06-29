@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
 $host = 'localhost';
-$db   = 'wedding';
-$user = 'username';
-$pass = 'password';
+$db   = 'zenyaobk_vadim';
+$user = 'zenyaobk_vadim';
+$pass = '*qx9q9kVdzf0';
 $charset = 'utf8mb4';
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
